@@ -90,3 +90,41 @@ button {
     background-color: #3882F6;
     border-color: #3882F6;
 }
+
+
+
+.body-container {
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.header-inf-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    display: flex;
+    height: 150px;
+    width: 150px;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
