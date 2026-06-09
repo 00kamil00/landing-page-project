@@ -41,9 +41,15 @@ a {
     gap: 20px;
 }
 
+.links a:hover {
+    color: #3882F6;
+}
+
 .container-2 {
     display: flex;
     justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 150px;
     flex-wrap: wrap;
 }
@@ -72,7 +78,9 @@ a {
 .main-image {
     display: flex;
     width: 450px;
+    max-width: 100%;
     height: 250px;
+    max-height: 100%;
     background-color: rgb(153, 153, 153);
     color: #E5E7EB;
     flex-shrink: 0;
@@ -89,6 +97,7 @@ button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-color: #3882F6;
+    cursor: pointer;
 }
 
 
